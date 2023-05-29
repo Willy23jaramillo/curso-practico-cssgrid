@@ -43,6 +43,27 @@ nav{
     margin: auto 2rem;
 
 }
+#input{
+    display: inline-grid;
+    width: 50%;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem;
+    font-family: cursive;
+}
+.button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: aquamarine;
+}
+.usuario{
+    display: grid;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: justify;
+    font-weight: bold;
+}
 .I{
     display: grid;
     width: 20rem;
@@ -56,22 +77,26 @@ nav{
 }
 .m-s-i{
     width: 100%;
+    overflow:visible;
 }
 .m-s-title{
     display: grid;
     position: absolute;
     color: white;
-    margin: 15rem 20rem 0px;
     font-size: xxx-large;
     font-family: cursive;
     font-weight: normal;
-    width: 40rem;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    min-width: -webkit-fill-available;
+    max-width: -webkit-fill-available;
 }
 .m-s-a{
     display: grid;
     color: black;
     position: absolute;
-    margin: 35rem auto 0rem 31rem;
     font-size: x-large;
     background-color: aquamarine;
     width: 10rem;
@@ -79,4 +104,20 @@ nav{
     text-decoration: none;
     border-radius: 1rem;
     font-family: cursive;
+}
+.container-title{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    overflow: hidden;
+    
+}
+.d-a-e{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
